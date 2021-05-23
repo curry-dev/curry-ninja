@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+h1, h2, h3, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lemons Can Fly', sans-serif;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+@font-face {
+  font-family: 'Action Jackson';
+  src: url('fonts/actionj.ttf');
+}
+
+@font-face {
+  font-family: 'Lemons Can Fly';
+  src: url('fonts/Lemons Can Fly.ttf');
+}
+
+:root {
+  --pink: #F1E6F3;
+  --oxford-blue: #223134;
+
+  --font-body: 'Lemons Can Fly', sans-serif;
+  --font-heading: 'Action Jackson', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/********************************************************/
+
+
+
+
+
+
+/************************ HEADER ************************/
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: var(--oxford-blue);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.back {
+  float: left;
+  margin-right: -25px;
+}
+
+.back img {
+  padding-right: 20px;
+}
+
+.back a {
+  line-height: 65px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 60px;
+}
+
+.back img:hover {
+  color: #B8E3F7;
+}
+
+/********************************************************/
+
+
+
+
+
+
+/************************ TOP ***************************/
+
+.top-wrapper {
+  padding: 60px 0;
+  margin-top: 65px;
+  color: #5FA2C0;
+  text-align: center;
+  transition: all 2s;
+}
+
+.top-wrapper h1 {
+  font-family: var(--font-heading);
+  margin-bottom: 10px;
+  font-size: 85px;
+}
+
+/********************************************************/
+
+
+
+
+
+
+/************************ PORTFOLIO *********************/
+
+.portfolio-wrapper {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #F1E6F3;
+}
+
+.portfolio {
+  padding: 50px 0;
+  float: left;
+  width: 33%;
+}
+
+.drawing {
+  position: relative;
+  opacity: 1;
+}
+
+.drawing:active {
+  top: 7px;
+}
+
+.drawing:hover {
+  transition: all .5s;
+  transform: scale(1.05);
+}
+
+.drawing img {
+  border: 3px solid var(--oxford-blue);
+}
+
+.caption {
+  display: inline-block;
+  margin-top: 15px;
+  color: #4A7881;
+  width: 80%;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+}
+
+/********************************************************/
+
+
+
+
+
+
+/************************ FOOTER ************************/
+
+footer {
+  text-align: center;
+  background-color: var(--oxford-blue);
+  bottom: 0;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icons a {
+  padding: 15px 20px;
+  float: left;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icons a:hover {
+  background-color: black;
+}
+
+.credits {
+  color: white;
+}

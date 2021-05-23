@@ -1,0 +1,28 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+
+  .top-wrapper h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+
+  .icons a {
+    width: 20%;
+  }
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+
+  .top-wrapper h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+
+
+  .icons a {
+    width: 20%;
+  }
+
+}
